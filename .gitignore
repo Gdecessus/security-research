@@ -1,0 +1,15 @@
+# Keep private: the tooling/automation and raw scanner output.
+# Publish only the write-ups and methodology.
+tools/
+notes/batch_results.csv
+notes/worklist.md
+
+# Third-party plugin source + evidence dumps
+targets/
+loot/
+*.zip
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+.vscode/
