@@ -18,8 +18,6 @@ For each plugin I look at a few things:
 
 Then I trace each one properly. A query without a prepared statement is worth a look, but it's not automatically a bug. You have to see what the input goes through first.
 
-More on how I work is in [`notes/METHODOLOGY.md`](notes/METHODOLOGY.md).
-
 ## Confirmed advisories
 
 Any confirmed and fixed issues get a full write-up in [`advisories/`](advisories/), one folder per CVE. None published yet.

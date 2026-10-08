@@ -1,36 +1,28 @@
-# [Plugin Name] <= [version] - [Vulnerability Type]
+# <plugin> <= <version> - <vuln type>
 
-- **CVE:** CVE-XXXX-XXXXX
-- **Plugin:** [name] ([link to wordpress.org page])
-- **Affected versions:** <= X.Y.Z
-- **Fixed in:** X.Y.Z
-- **Type:** [e.g. Unauthenticated SQL Injection]
-- **Reported:** [date]   **Fixed:** [date]   **Disclosed:** [date]
+CVE: 
+Plugin: <slug> (<installs> installs)
+Affected: <= X.Y.Z   Fixed: X.Y.Z
+Reported / fixed / disclosed: 
 
-## Summary
+## what it is
+one line - the bug and who can hit it.
 
-One or two plain sentences: what the bug is and who can trigger it.
-
-## Details
-
-Where the bug is (file and function), and why it happens. Show the vulnerable
-code and explain how user input reaches it without being cleaned up.
+## where
+file + function, and why it goes wrong. the bad code:
 
 ```php
-// the vulnerable code
+// ...
 ```
 
-## Proof of concept
+## poc
+the request that triggers it. keep this out until the vendor ships a fix.
 
-The request / steps that trigger it. Only published after the vendor has fixed it.
+## impact
+what you actually get out of it.
 
-## Impact
-
-What an attacker can actually do with it.
-
-## Timeline
-
-- XXXX-XX-XX reported to vendor
-- XXXX-XX-XX vendor acknowledged
-- XXXX-XX-XX fix released
-- XXXX-XX-XX public disclosure
+## timeline
+- yyyy-mm-dd  reported to vendor
+- yyyy-mm-dd  vendor replied
+- yyyy-mm-dd  fix released
+- yyyy-mm-dd  public

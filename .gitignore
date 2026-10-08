@@ -1,10 +1,19 @@
-# Keep private: the tooling/automation and raw scanner output.
-# Publish only the write-ups and methodology.
-tools/
-notes/batch_results.csv
-notes/worklist.md
+# Public repo holds only: README.md, advisories/TEMPLATE.md, and published advisories.
+# Everything below stays private / local.
 
-# Third-party plugin source + evidence dumps
+# tooling and automation
+tools/
+
+# all working notes, scan output, triage logs
+notes/
+
+# local PoC environments and evidence (undisclosed)
+poc-directorist/
+
+# draft / undisclosed advisories (only published ones go in, per-folder)
+advisories/_DRAFT*
+
+# downloaded third-party source + evidence dumps
 targets/
 loot/
 *.zip
